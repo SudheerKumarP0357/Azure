@@ -1,0 +1,11 @@
+# Creating Resource Group using Azure CLI
+
+#az group create --location
+                # --name
+                # [--managed-by]
+                # [--tags]
+
+az group create --location "eastus" --name "azure_cli"
+
+
+# https://learn.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create
